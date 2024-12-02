@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #3a3f44;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: #3498db;
+}
+.profile-pic {
+  object-fit: cover;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-row,
+.experience-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.year {
+  font-size: 12px;
+}
+
+.course {
+  margin-top: 0;
+  font-size: 12px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+li {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.title {
+  margin-top: 15px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid lightgray;
+  margin: 20px 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
